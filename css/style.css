@@ -1,0 +1,52 @@
+:root{
+    --kc-primary:#AD2626;
+}
+
+/* Custom backgrounds */
+.bg-kc-primary{
+    background-color: var(--kc-primary) !important;
+}
+
+
+/* Custom text colors */
+
+.text-kc-primary{
+    color: var(--kc-primary) !important;
+}
+
+
+
+/* ustom css styles */
+
+.nav-item .nav-link{
+    text-transform: uppercase !important;
+    padding: auto 0.5rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px;
+    font-size: small;
+}
+
+.btn-white{
+    background-color: #fff;
+    height: 2rem;
+    margin: auto auto;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    color: var(--kc-primary);
+    font-weight: 600;
+    font-size: small;
+}
+.banner{
+    width: 100%;
+}
+.all-caps{
+    text-transform: uppercase;
+}
+
+.text-highlight-black{
+    color: black;
+    font-weight: 800;
+}
+.text-highlight-primary{
+color: var(--kc-primary);
+}
