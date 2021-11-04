@@ -192,18 +192,71 @@ footer {
     padding: 2rem;
 }
 
-.footer-address h6,.footer-item h6 {
+.footer-address h6, .footer-item h6 {
     font-weight: 300;
     color: white;
 }
-.banner-back{
+
+.banner-back {
     background-image: url('images//white-bg.png');
-    background-size:100% 100%;
-    
+    background-size: 100% 100%;
 }
-.banner-content{
+
+.banner-content {
+   
+    display: flex;
+    justify-content: space-between;
+}
+/* .banner-left{
+
+} */
+.banner-right{
+  
+   display: flex;
+   align-items: flex-end;
+}
+.banner-left-item {
+   
     margin-top: 5rem;
     position: relative;
-    left: 15%;
+    left: 70%;
+    
     margin-bottom: 5rem;
+}
+.banner-right-item{
+    
+    position: relative;
+    right:85%;
+   
+}
+.image-main{
+    transform: scale(0.25);
+}
+
+.about-party{
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 16px;
+    /* line-height: 0rem; */
+}
+.kc-card{
+    background-color: white;
+    box-shadow: 0 0 20px rgba(220, 220, 220, 0.383);
+    border-radius: 10px;
+}
+@media screen and (max-width:576px) {
+    .t-group{
+        flex-direction: column;
+    }
+    .banner-right{
+        display: none;
+    }
+    .banner-left-item{
+        position: relative;
+        left: 1rem;
+    }
+    .rside-tag{
+        transform: scale(0.65);
+    }
 }
