@@ -13,6 +13,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body style=" font-family: 'Poppins', sans-serif;">
@@ -88,7 +93,7 @@
         <div class="banner-back">
             <!-- <img class="banner" src="images/white-bg.png" alt=""> -->
             <div class="banner-content">
-                <div class="banner-left">
+                <div class="banner-left" data-aos="fade-right">
                     <div class="banner-left-item">
                         <h6>Member of the <br> Kerala Legislative Assembly</h6>
                         <h2 class="text-highlight-black">
@@ -104,7 +109,7 @@
                             more</button>
                     </div>
                 </div>
-                <div class="banner-right">
+                <div class="banner-right" data-aos="fade-left">
                     <div class="banner-right-item">
                         <img width="320px" height="240px" class="img-fluid" src="images/pjjoseph.png" alt="">
                     </div>
@@ -148,11 +153,12 @@
     <!-- Join section -->
     <section>
         <div class="d-flex flex-column align-items-center mt-4">
-            <h3 class="all-caps mt-3">You are our stength</h3>
-            <h1 class="text-highlight-black">
-                Become A <span class="text-highlight-primary">Member</span>
+            <h3 class="all-caps mt-2" style="font-size: larger;font-weight: 400;">Let's line up for a new movement </h3>
+            <h1 class="text-highlight-black mt-2">
+                <span class="text-highlight-primary">Become one of us</span>
             </h1>
-            <button class="btn btn-custom-brown">
+            <button onclick="window.location.href='http:\/\/www.membership.keralacongress.org.in'"
+                class="btn btn-custom-brown mt-3">
                 Join Us Now
             </button>
         </div>
@@ -307,6 +313,10 @@
         </div>
     </footer>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
