@@ -3,6 +3,8 @@
     --kyf-secondary: #01BFBF;
     --kyf-blue: #3a3a3b;
     --kyf-white: #fff;
+    --kc-primary: #D21F3C;
+    --kc-secondary: #2f2f2f;
 }
 
 .bg-kc-blue {
@@ -66,20 +68,18 @@ main {
     color: var(--kyf-white);
 }
 
-.footer {
-    margin-top: 2rem;
-    background-color: var(--kyf-blue);
-    color: white
-}
-
 .img-chairman {
     transform: scale(0.8);
 }
 
-.footer-content {
-    display: flex;
-    justify-content: center;
+footer {
+    background-color: var(--kc-secondary);
     padding: 2rem;
+}
+
+.footer-address h6, .footer-item h6 {
+    font-weight: 300;
+    color: white !;
 }
 
 @media (max-width:576px) {
