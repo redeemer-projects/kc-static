@@ -1,7 +1,7 @@
 :root {
     --kyf-primary: #AB0B39;
     --kyf-secondary: #01BFBF;
-    --kyf-blue: #2C3D85;
+    --kyf-blue: #3a3a3b;
     --kyf-white: #fff;
 }
 
@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -48,12 +48,14 @@ main {
     font-weight: bolder;
     color: var(--kyf-blue);
 }
-.title-2{
+
+.title-2 {
     font-size: x-large;
     font-weight: bold;
     color: var(--kyf-blue);
 }
-.title-3{
+
+.title-3 {
     font-size: large;
     font-weight: normal;
     color: var(--kyf-blue);
@@ -69,18 +71,19 @@ main {
     background-color: var(--kyf-blue);
     color: white
 }
-.img-chairman{
+
+.img-chairman {
     transform: scale(0.8);
 }
+
 .footer-content {
     display: flex;
     justify-content: center;
     padding: 2rem;
 }
 
-
-@media (max-width:576px){
-    .kyf-logo{
+@media (max-width:576px) {
+    .kyf-logo {
         justify-content: center;
     }
 }
