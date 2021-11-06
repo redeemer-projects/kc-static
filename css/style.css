@@ -38,6 +38,7 @@
     position: fixed;
     right: 0;
     top: 25%;
+    translate: 0.3s ease-in-out;
 }
 
 .rside-tag_1 {

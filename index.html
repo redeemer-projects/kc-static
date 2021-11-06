@@ -15,9 +15,11 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/mega-menu-style.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="owl/dist/assets/owl.carousel.min.css">
 </head>
 
 <body style=" font-family: 'Poppins', sans-serif;">
@@ -51,49 +53,86 @@
             </div>
         </section>
     </div>
-    <nav>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-kc-primary py-4">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mt-3 mt-lg-0 mb-3 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Leadership</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Media</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Youth front</a>
-                        </li>
-                        <li class="nav-item">
-                            <button onclick="window.location.href='http\:/\/membership.keralacongress.org.in'"
-                                class="btn btn-white" type="submit">Join us</button>
-                        </li>
-                    </ul>
+     <!-- Section: Header -->
+     <header class="header">
+        <div class="container">
+            <section class="wrapper">
+                <div class="header-item-left">
+                    <h3><a href="./index.html" class="brand">Kerala Congress</a></h3>
                 </div>
-            </div>
-        </nav>
-    </nav>
-    <section>
+                <!-- Navbar Menu -->
+                <div class="header-item-center">
+                    <div class="overlay"></div>
+                    <nav class="menu" id="menu">
+                        <div class="menu-mobile-header">
+                            <button type="button" class="menu-mobile-arrow"><i
+                                    class="ion ion-ios-arrow-back"></i></button>
+                            <div class="menu-mobile-title"></div>
+                            <button type="button" class="menu-mobile-close"><i class="ion ion-ios-close"></i></button>
+                        </div>
+                        <ul class="menu-section">
+                            <li class="menu-item"><a href="index.html">Home</a></li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Organizations<i class="ion ion-ios-arrow-down"></i></a>
+                                <div class="menu-subs menu-mega menu-column-4">
+                                    <div class="list-item text-center">
+                                        <a href="#">
+                                            <!-- <img src="./assets/product-1.jpg" loading="lazy" alt="Product Images"> -->
+                                            <h4 class="title">Kerala Youth Front(KYF)</h4>
+                                        </a>
+                                    </div>
+                                    <div class="list-item text-center">
+                                        <a href="#">
+                                            <!-- <img src="./assets/product-2.jpg" loading="lazy" alt="Product Images"> -->
+                                            <h4 class="title">Kerala IT & Professional Congress(KITPROC)</h4>
+                                        </a>
+                                    </div>
+                                    <div class="list-item text-center">
+                                        <a href="#">
+                                            <!-- <img src="./assets/product-2.jpg" loading="lazy" alt="Product Images"> -->
+                                            <h4 class="title">Kerala Student Congress (KSC)</h4>
+                                        </a>
+                                    </div>
+                                    <div class="list-item text-center">
+                                        <a href="#">
+                                            <!-- <img src="./assets/product-2.jpg" loading="lazy" alt="Product Images"> -->
+                                            <h4 class="title">Kerala Vanitha Congress</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">About us <i class="ion ion-ios-arrow-down"></i></a>
+                            </li>
+                            <li class="menu-item-has-children"><a href="#">Media</a>
+
+                            </li>
+                            <li class="menu-item"><a href="#">Contact Us</a></li>
+                            <li class="menu-item"><a href="http://www.membership.keralacongress.org.in">Join Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="header-item-right">
+                    <a href="#" class="menu-icon"><i class="ion ion-md-search"></i></a>
+                    <a href="#" class="menu-icon"><i class="ion ion-md-heart"></i></a>
+                    <a href="#" class="menu-icon"><i class="ion ion-md-cart"></i></a>
+                    <button type="button" class="menu-mobile-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </section>
+        </div>
+    </header>
+    <section id="banner-section">
         <!-- <img class="banner" src="images/white-bg.png" alt=""> -->
         <div class="banner-back">
             <!-- <img class="banner" src="images/white-bg.png" alt=""> -->
             <div class="banner-content">
-                <div class="banner-left" data-aos="fade-right">
+                <div class="banner-left">
                     <div class="banner-left-item">
                         <h6>Member of the <br> Kerala Legislative Assembly</h6>
                         <h2 class="text-highlight-black">
@@ -109,7 +148,7 @@
                             more</button>
                     </div>
                 </div>
-                <div class="banner-right" data-aos="fade-left">
+                <div class="banner-right">
                     <div class="banner-right-item">
                         <img width="320px" height="240px" class="img-fluid" src="images/pjjoseph.png" alt="">
                     </div>
@@ -123,27 +162,36 @@
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8">
-                        <div class="t-group">
-                            <!-- <img class="quote_2" src="images/quote_2.png" alt=""> -->
-                            <div class="t-image">
-                                <img class="img-fluid"
-                                    src="https://lh3.googleusercontent.com/proxy/hVcS8GForMKDjDeteWy8g-KVm1tTs4mvBwQvcjT8WKV8TI789tnFOUAi-JBBT0ilBfJ10TjkedSn3v7jqCnQ3iqriB9NCLSzDIgi6GMxq3tZObEIHRr8jy5fbg"
-                                    alt="Image">
+                        <div class="owl-carousel owl-theme">
+                            <div class="t-group">
+                                <!-- <img class="quote_2" src="images/quote_2.png" alt=""> -->
+                                <div class="t-image">
+                                    <img class="img-fluid"
+                                        src="https://lh3.googleusercontent.com/proxy/hVcS8GForMKDjDeteWy8g-KVm1tTs4mvBwQvcjT8WKV8TI789tnFOUAi-JBBT0ilBfJ10TjkedSn3v7jqCnQ3iqriB9NCLSzDIgi6GMxq3tZObEIHRr8jy5fbg"
+                                        alt="Image">
+                                </div>
+                                <div class="t-content col">
+                                    <h5> Name of the member</h5>
+                                    <h6>Designation</h6>
+                                    <p">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, accusamus.
+                                        Doloribus
+                                        exercitationem
+                                        modi ab repellendus repellat, assumenda eos perspiciatis quis obcaecati
+                                        similique ipsum ipsa
+                                        asperiores quam molestias dolore esse nihil?
+                                        </p>
+                                </div>
+                                <!-- <img class="quote_1" src="images/quote_1.png" alt=""> -->
                             </div>
-                            <div class="t-content col">
-                                <h5> Name of the member</h5>
-                                <h6>Designation</h6>
-                                <p">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, accusamus.
-                                    Doloribus
-                                    exercitationem
-                                    modi ab repellendus repellat, assumenda eos perspiciatis quis obcaecati
-                                    similique ipsum ipsa
-                                    asperiores quam molestias dolore esse nihil?
-                                    </p>
-                            </div>
-                            <!-- <img class="quote_1" src="images/quote_1.png" alt=""> -->
+                            <!-- <div> Your Content </div>
+                            <div> Your Content </div>
+                            <div> Your Content </div>
+                            <div> Your Content </div>
+                            <div> Your Content </div>
+                            <div> Your Content </div> -->
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -167,7 +215,111 @@
     <section id="news_section">
         <div class="d-flex justify-content-center mt-3">
             <div class="title-1">
-                Events & News
+                News
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-lg-4 mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-fluid" src="images/gallery_1.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-kc-primary news-title">News Title</h3>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, amet?</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-lg-4 mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-fluid" src="images/gallery_2.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-kc-primary news-title">News Title</h3>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, amet?</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-lg-4 mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-fluid" src="images/gallery_3.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-kc-primary news-title">News Title</h3>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, amet?</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-lg-4 mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-fluid" src="images/gallery_4.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-kc-primary news-title">News Title</h3>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, amet?</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-lg-4 mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-fluid" src="images/gallery_5.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-kc-primary news-title">News Title</h3>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, amet?</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-lg-4 mt-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-fluid" src="images/gallery_6.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-kc-primary news-title">News Title</h3>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, amet?</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a href="#" class="btn btn-light bg-kc-secondary text-white">Read more</a>
+            </div>
+        </div>
+    </section>
+    <section id="news_section">
+        <div class="d-flex justify-content-center mt-3">
+            <div class="title-1">
+                Events
             </div>
         </div>
         <div class="container">
@@ -314,8 +466,16 @@
     </footer>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/mega-menu-script.min.js"></script>
+    <script src="js/scripts.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script src="owl/dist/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel();
+        });
     </script>
 </body>
 
