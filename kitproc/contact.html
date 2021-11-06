@@ -26,7 +26,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-blue nav-second py-5">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img class="logo-image" src="assets/images/kc_logo_temp_1.svg" alt="" width="" height="">
+                        <img class="logo-image" style="margin-left: 5rem;transform:scale(2);" src="assets/images/kitproc_light.svg" alt="" width="" height="">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -36,7 +36,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="about.html">About</a>
@@ -47,19 +47,18 @@
                                     More
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="/news.html">News &amp; Updates</a></li>
-                                    <li><a class="dropdown-item" href="http://pjjoseph.com/kc">Parent Organization</a></li>
+                                    <li><a class="dropdown-item" href="news.html">News &amp; Updates</a></li>
+                                    <li><a class="dropdown-item" href="/">Parent Organization</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/contact.html">Contact us</a>
+                                <a class="nav-link active" aria-current="page" href="contact.html">Contact us</a>
                             </li>
                         </ul>
-                        <a href="http://keralacongress.herokuapp.com" class="btn btn-red">Register</a>
+                        <a href="http://membership.keralacongress.org.in" class="btn btn-red">Register</a>
                     </div>
                 </div>
             </nav>
@@ -79,7 +78,7 @@
                         <span class="heading-xlg">
                             Contact Information
                         </span>
-                        <div class="mapouter" >
+                        <div class="mapouter">
                             <div class="gmap_canvas"><iframe style="width: 100%;" height="500" id="gmap_canvas"
                                     src="https://maps.google.com/maps?q=Kerala%20Congress%20(Joseph)%20Mandalam%20Committee%20Office&t=&z=13&ie=UTF8&iwloc=&output=embed"
                                     frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
@@ -90,7 +89,8 @@
                                 <strong><u>Address</u></strong><br>
                                 <p>
                                     Kerala Congress (Joseph) <br>
-                                    1st Floor, Kandathil Building, Koothattukulam - Ramapuram Rd, near Pallikavala, Ramapuram, Kerala 686576
+                                    1st Floor, Kandathil Building, Koothattukulam - Ramapuram Rd, near Pallikavala,
+                                    Ramapuram, Kerala 686576
                                 </p>
                             </div>
                             <div class="col-md-6 mt-3">
@@ -101,7 +101,7 @@
                                     <strong>W:</strong> www.keralacongress.com <br>
                                 </p>
                                 <p>
-                                    
+
                                 </p>
                             </div>
                         </div>
@@ -110,12 +110,55 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="footer-text">
-            Professional Kerala Congress &copy; 2021
+    <footer id="footer mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="row">
+                        <img class="img-fluid" src="assets/images/kitproc_light.svg" alt="Logo">
+                    </div>
+                    <div class="row mt-5">
+                        <div class="d-flex flex-column footer-address">
+                            <h6 class="text-white"> III Floor, KK Road, Kottayam</h6>
+
+                            <h6 class="text-white"> Phone: +91 9446012054 , 9562095670</h6>
+
+                            <h6 class="text-white"> Email: info@keralacongress.com</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="d-flex flex-column">
+                        <div class="footer-item">
+                            <h3  class="title-2 text-white">About us</h3>
+                            <h6 class="mt-2 text-white">Frontal Organizations</h6>
+                            <h6 class="mt-2 text-white">Party forums</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="d-flex flex-column">
+                        <div class="footer-item">
+                            <h3 class="title-2 text-white">Informations</h3>
+                            <h6 class="mt-2 text-white">Chairman</h6>
+                            <h6 class="mt-2 text-white">Kerala youth front</h6>
+                            <h6 class="mt-2 text-white">Kerala IT and Professional Congress</h6>
+                            <h6 class="mt-2 text-white">Become a member</h6>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="d-flex flex-column">
+                        <div class="footer-item">
+                            <h6 class="mt-2 text-white">Powered by <a class="nav-link text-white" href="http://redeemertechnologies.com">Redeemer Technologies</a></h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

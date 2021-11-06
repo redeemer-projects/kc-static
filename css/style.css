@@ -195,7 +195,7 @@ footer {
 
 .footer-address h6, .footer-item h6 {
     font-weight: 300;
-    color: white;
+    color: white !;
 }
 
 .banner-back {
