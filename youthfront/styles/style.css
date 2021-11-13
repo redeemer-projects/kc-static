@@ -81,6 +81,14 @@ footer {
     font-weight: 300;
     color: white !;
 }
+.footer-link{
+    color: white;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: white;
+    text-decoration: none;
+}
 
 @media (max-width:576px) {
     .kyf-logo {

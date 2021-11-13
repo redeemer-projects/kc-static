@@ -31,3 +31,11 @@ footer {
   /* box-shadow: 0 0 10px rgba(128, 128, 128, 0.582); */
   padding: 1rem;
 }
+.footer-link{
+  color: white;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: white;
+  text-decoration: none;
+}

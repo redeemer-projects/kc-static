@@ -474,6 +474,14 @@ footer {
    height: 100vh!important;
    overflow: hidden;
 }
+.footer-link{
+    color: white;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: white;
+    text-decoration: none;
+}
 /* Equivalent to XS */
 
 @media(max-width:576px) {

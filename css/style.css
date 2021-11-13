@@ -249,6 +249,14 @@ footer {
     box-shadow: 0 0 20px rgba(220, 220, 220, 0.383);
     border-radius: 10px;
 }
+.footer-link{
+    color: white;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: white;
+    text-decoration: none;
+}
 @media screen and (max-width:576px) {
     .t-group{
         flex-direction: column;
