@@ -81,17 +81,30 @@ footer {
     font-weight: 300;
     color: white !;
 }
-.footer-link{
+
+.footer-link {
     color: white;
     text-decoration: none;
 }
-.footer-link:hover{
+
+.footer-link:hover {
     color: white;
     text-decoration: none;
+}
+
+.title-name {
+    font-size: x-large;
+    font-weight: 700;
 }
 
 @media (max-width:576px) {
     .kyf-logo {
         justify-content: center;
+    }
+    .logo-image {
+        transform: scale(0.8);
+    }
+    .title-name{
+        font-size: large;
     }
 }
